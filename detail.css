@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Moonrocks&display=swap');
+body
+{
+    margin: 0;
+    padding: 0;
+}
+.logo
+{
+    font-family: 'Rubik Moonrocks', cursive;
+    font-size: 50px;
+  
+}
+nav
+{
+    position: sticky;
+    top: 0;
+    
+}
+ul
+{
+    position: relative;
+    left: 150px;
+}
+.formR
+{
+    position: relative;
+    right: 100px;
+}
+.pagneticone
+{
+    position: relative;
+    right: 20px;
+    color: rgba(0, 100, 0, 0.678);
+}
+header
+{
+    background: url("images/ecommerce-2140603_1920.jpg")no-repeat;
+    background-size: cover;
+    height: 400px;
+}
+.paragrapheHeader
+{
+    margin-top: 100px;
+}
+/******************************section main*****************************************/
+.main_detail
+{
+   margin-top:50px;
+}
+
+.titremain
+{
+    margin-bottom: 50px;
+}
+.caroussel
+{
+    margin-right:px;
+}
+.cards-wrapper
+{
+    justify-content: center;
+}
+.image-wrapper
+{
+    width: 100%;
+}
+.card-body
+{
+    height: 120px;
+    
+}
+.carousel-item
+{
+    margin-left: 100px;
+   
+    
+}
+/********************section temoignage*******************************/
+/***************************section footer**************************************/
+.section-footer
+{
+    margin-top: 250px;
+}
+.titrefooter1
+{
+    font-family: 'Rubik Moonrocks', cursive;
+    font-size: 50px;
+}
+/**********************************************************/
+/********************Media Querie******************************/
+@media (max-width: 575.98px)
+ {
+  }
+@media (max-width: 767.98px) {  }
+@media (max-width: 991.98px) {  }
+@media (max-width: 1199.98px) {  }
+@media (max-width: 1399.98px) {  }

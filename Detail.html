@@ -1,0 +1,654 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="detail.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@600&family=Roboto+Slab&display=swap" rel="stylesheet">
+    <title>Shopfamily</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand text-success  logo ml-5" href="#">e-commerce</a>
+        <button class="navbar-toggler btn-success text-success" type="button " data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          Menu
+          <i class="fa fa-bars text-success " aria-hidden="true"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active text-success" aria-current="page" href="acceuil.html">Acceuil</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-success" href="listProduits.html">ListesProduits</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle text-success" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                DetailProduit
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item text-success" href="Detail.html">TypeProduits</a></li>
+                <li><a class="dropdown-item text-success" href="achetes.html">Les Produits plus Achetés</a></li>
+              </ul>
+            </li>
+            
+            <li class="nav-item">
+              <a class="nav-link text-success" href="connexion.html">Connexion</a>
+            </li>
+          </ul>
+          <form class="d-flex formR">
+            <input class="form-control me-2 " type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Search</button>
+          </form>
+         <a href=""><i class="fa fa-shopping-cart fa-3x pagneticone" aria-hidden="true"></i></a> 
+        </div>
+      </div>
+    </nav>
+    <!-------------section header----------->
+  <section class="section-header">
+      <header class="header">
+      <marquee class="display-1 text-center text-success paragrapheHeader">c'est votre boutique , <br> votre chez-vous</marquee>
+      </header>
+    </section>
+    <section class="main_detail">
+      <div class="container-fluid"><!----debut-->
+        <h1 class="display-5 text-center text-success titremain">Les Produits Ordinateurs Portables</h1>
+        <div class="row contenu">
+          <div class="col-lg-4 col-md-12 col-sm-12  d-flex colmain">
+            <div id="carouselExampleSlidesOnly" class="carousel slide caroussel" data-bs-ride="carousel">
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <div class="cards-wrapper">
+                    <div class="card " style="width: 15rem;">
+                      <div class="image-wrapper">
+                        <img src="images/product-1.jpg" class="card-img-top" alt="...">
+                      </div>
+                      <div class="card-body">
+                        <h5 class="card-title text-success">ordinateur </h5>
+                        <p class="card-text text-success  h6">$400 <br>
+                          <i class="fa fa-star" aria-hidden="true"></i>
+                          <i class="fa fa-star" aria-hidden="true"></i>
+                          <i class="fa fa-star" aria-hidden="true"></i>
+                          <i class="fa fa-star" aria-hidden="true"></i>
+                          <i class="fa fa-star" aria-hidden="true"></i>
+                          <a href="#" class="btn btn-success">achetés<i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                          </a>
+                        </p>
+                        
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <div class="cards-wrapper">
+                    <div class="card d-none d-md-block" style="width: 15rem;">
+                      <div class="image-wrapper">
+                        <img src="images/product-2.jpg" class="card-img-top" alt="...">
+                      </div>
+                      <div class="card-body">
+                        <h5 class="card-title h6 text-success">Lenovo</h5>
+                        <p class="card-text text-success h6">$750 <br>
+                          <i class="fa fa-star" aria-hidden="true"></i>
+                          <i class="fa fa-star" aria-hidden="true"></i>
+                          <i class="fa fa-star" aria-hidden="true"></i>
+                          <i class="fa fa-star" aria-hidden="true"></i>
+                          <i class="fa fa-star" aria-hidden="true"></i>
+                          <a href="#" class="btn btn-success">achetés<i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                          </a>
+                        </p>
+                        
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel-item ">
+                  <div class="cards-wrapper">
+                    <div class="card d-none d-md-block" style="width: 15rem;">
+                      <div class="image-wrapper">
+                       <img src="images/product-10-300x330.jpg" class="card-img-top" alt="...">
+                      </div>
+                      <div class="card-body">
+                        <h5 class="card-title text-success">ordinateur</h5>
+                        <p class="card-text text-success h6">$420 <br><i class="fa fa-star" aria-hidden="true"></i>
+                          <i class="fa fa-star" aria-hidden="true"></i>
+                          <i class="fa fa-star" aria-hidden="true"></i>
+                          <i class="fa fa-star" aria-hidden="true"></i>
+                          <i class="fa fa-star" aria-hidden="true"></i>
+                          <a href="#" class="btn btn-success">achetés<i class="fa fa-shopping-cart" aria-hidden="true"></i></a>
+                        </p>
+                        
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          
+            <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <div class="cards-wrapper">
+                    <div class="card d-none d-md-block" style="width: 15rem;">
+                      <div class="image-wrapper">
+                       <img src="images/product-11-450x494.jpg" class="card-img-top" alt="...">
+                      </div>
+                      <div class="card-body">
+                        <h5 class="card-title text-success h6">ordinateur</h5>
+                        <p class="card-text text-success h6">$320 <br><i class="fa fa-star" aria-hidden="true"></i>
+                          <i class="fa fa-star" aria-hidden="true"></i>
+                          <i class="fa fa-star" aria-hidden="true"></i>
+                          <i class="fa fa-star" aria-hidden="true"></i>
+                          <i class="fa fa-star" aria-hidden="true"></i>
+                          <a href="#" class="btn btn-success">achetés<i class="fa fa-shopping-cart" aria-hidden="true"></i></a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <div class="cards-wrapper">
+                    <div class="card d-none d-md-block" style="width: 15rem;">
+                      <div class="image wrapper">
+                        <img src="images/REFURBISHED-AND-NEW-LAPTOPS-FOR-SELL-BEST.jpg" class="card-img-top" alt="...">
+                      </div>
+                      <div class="card-body">
+                        <h5 class="card-title text-success h6">ordinateur</h5>
+                        <p class="card-text text-success h6">$950 <br><i class="fa fa-star" aria-hidden="true"></i>
+                          <i class="fa fa-star" aria-hidden="true"></i>
+                          <i class="fa fa-star" aria-hidden="true"></i>
+                          <i class="fa fa-star" aria-hidden="true"></i>
+                          <i class="fa fa-star" aria-hidden="true"></i>
+                          <a href="#" class="btn btn-success">achetés<i class="fa fa-shopping-cart" aria-hidden="true"></i></a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <div class="cards-wrapper">
+                    <div class="card d-none d-md-block" style="width: 15rem;">
+                      <img src="images/product-2.jpg" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title text-success h6">ordinateur</h5>
+                        <p class="card-text text-success h6">$370 <br><i class="fa fa-star" aria-hidden="true"></i>
+                          <i class="fa fa-star" aria-hidden="true"></i>
+                          <i class="fa fa-star" aria-hidden="true"></i>
+                          <i class="fa fa-star" aria-hidden="true"></i>
+                          <i class="fa fa-star" aria-hidden="true"></i>
+                          <a href="#" class="btn btn-success">achetés<i class="fa fa-shopping-cart" aria-hidden="true"></i></a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          
+            <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <div class="cards-wrapper">
+                    <div class="card d-none d-md-block" style="width: 15rem;">
+                      <div class="image-wrapper">
+                         <img src="images/product-2.jpg" class="card-img-top" alt="...">
+                      </div>
+                      <div class="card-body">
+                        <h5 class="card-title text-success">ordinateur</h5>
+                        <p class="card-text text-success h6">$520 <br><i class="fa fa-star" aria-hidden="true"></i>
+                          <i class="fa fa-star" aria-hidden="true"></i>
+                          <i class="fa fa-star" aria-hidden="true"></i>
+                          <i class="fa fa-star" aria-hidden="true"></i>
+                          <i class="fa fa-star" aria-hidden="true"></i>
+                          <a href="#" class="btn btn-success">achetés<i class="fa fa-shopping-cart" aria-hidden="true"></i></a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <div class="cards-wrapper">
+                    <div class="card d-none d-md-block" style="width: 15rem;">
+                      <div class="imge-wrapper">
+                         <img src="images/product-2.jpg" class="card-img-top" alt="...">
+                      </div>
+                      <div class="card-body">
+                        <h5 class="card-title text-success">ordinateur</h5>
+                        <p class="card-text text-success h6">$320 <br><i class="fa fa-star" aria-hidden="true"></i>
+                          <i class="fa fa-star" aria-hidden="true"></i>
+                          <i class="fa fa-star" aria-hidden="true"></i>
+                          <i class="fa fa-star" aria-hidden="true"></i>
+                          <i class="fa fa-star" aria-hidden="true"></i>
+                          <a href="#" class="btn btn-success">achetés<i class="fa fa-shopping-cart" aria-hidden="true"></i></a>
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <div class="cards-wrapper">
+                    <div class="card d-none d-md-block" style="width: 15rem;">
+                      <div class="image-wrapper">
+                      <img src="images/product-2.jpg" class="card-img-top" alt="...">
+                      </div>
+                      <div class="card-body">
+                        <h5 class="card-title text-success">ordinateur</h5>
+                         <p class="card-text text-success h6">$320 <br><i class="fa fa-star" aria-hidden="true"></i>
+                          <i class="fa fa-star" aria-hidden="true"></i>
+                          <i class="fa fa-star" aria-hidden="true"></i>
+                          <i class="fa fa-star" aria-hidden="true"></i>
+                          <i class="fa fa-star" aria-hidden="true"></i>
+                          <a href="#" class="btn btn-success">achetés<i class="fa fa-shopping-cart" aria-hidden="true"></i></a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <h1 class="display-5 text-center text-success titremain">Les Produits Montres electronics</h1>
+        <div class="row contenu">
+          <div class="col-lg-4 col-md-12 col-sm-12  d-flex colmain">
+            <div id="carouselExampleSlidesOnly" class="carousel slide caroussel" data-bs-ride="carousel">
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <div class="cards-wrapper">
+                    <div class="card " style="width: 15rem;">
+                      <div class="image-wrapper">
+                        <img src="images/product 2.jpg" class="card-img-top" alt="...">
+                      </div>
+                      <div class="card-body">
+                        <h5 class="card-title text-success">Bluetooth </h5>
+                        <p class="card-text text-success  h6">$400 <br>
+                          <i class="fa fa-star" aria-hidden="true"></i>
+                          <i class="fa fa-star" aria-hidden="true"></i>
+                          <i class="fa fa-star" aria-hidden="true"></i>
+                          <i class="fa fa-star" aria-hidden="true"></i>
+                          <i class="fa fa-star" aria-hidden="true"></i>
+                          <a href="#" class="btn btn-success">achetés<i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                          </a>
+                        </p>
+                        
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <div class="cards-wrapper">
+                    <div class="card d-none d-md-block" style="width: 15rem;">
+                      <div class="image-wrapper">
+                        <img src="images/product 10.jpg" class="card-img-top" alt="...">
+                      </div>
+                      <div class="card-body">
+                        <h5 class="card-title h6 text-success">montre</h5>
+                        <p class="card-text text-success h6">$750 <br>
+                          <i class="fa fa-star" aria-hidden="true"></i>
+                          <i class="fa fa-star" aria-hidden="true"></i>
+                          <i class="fa fa-star" aria-hidden="true"></i>
+                          <i class="fa fa-star" aria-hidden="true"></i>
+                          <i class="fa fa-star" aria-hidden="true"></i>
+                          <a href="#" class="btn btn-success">achetés<i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                          </a>
+                        </p>
+                        
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel-item ">
+                  <div class="cards-wrapper">
+                    <div class="card d-none d-md-block" style="width: 15rem;">
+                      <div class="image-wrapper">
+                       <img src="images/product 10.jpg" class="card-img-top" alt="...">
+                      </div>
+                      <div class="card-body">
+                        <h5 class="card-title text-success">montre</h5>
+                        <p class="card-text text-success h6">$420 <br><i class="fa fa-star" aria-hidden="true"></i>
+                          <i class="fa fa-star" aria-hidden="true"></i>
+                          <i class="fa fa-star" aria-hidden="true"></i>
+                          <i class="fa fa-star" aria-hidden="true"></i>
+                          <i class="fa fa-star" aria-hidden="true"></i>
+                          <a href="#" class="btn btn-success">achetés<i class="fa fa-shopping-cart" aria-hidden="true"></i></a>
+                        </p>
+                        
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          
+            <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <div class="cards-wrapper">
+                    <div class="card d-none d-md-block" style="width: 15rem;">
+                      <div class="image-wrapper">
+                       <img src="images/watxh.jpg" class="card-img-top" alt="...">
+                      </div>
+                      <div class="card-body">
+                        <h5 class="card-title text-success h6">ordinateur</h5>
+                        <p class="card-text text-success h6">$320 <br><i class="fa fa-star" aria-hidden="true"></i>
+                          <i class="fa fa-star" aria-hidden="true"></i>
+                          <i class="fa fa-star" aria-hidden="true"></i>
+                          <i class="fa fa-star" aria-hidden="true"></i>
+                          <i class="fa fa-star" aria-hidden="true"></i>
+                          <a href="#" class="btn btn-success">achetés<i class="fa fa-shopping-cart" aria-hidden="true"></i></a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <div class="cards-wrapper">
+                    <div class="card d-none d-md-block" style="width: 15rem;">
+                      <div class="image wrapper">
+                        <img src="images/product 3.jpg" class="card-img-top" alt="...">
+                      </div>
+                      <div class="card-body">
+                        <h5 class="card-title text-success h6">montre</h5>
+                        <p class="card-text text-success h6">$950 <br><i class="fa fa-star" aria-hidden="true"></i>
+                          <i class="fa fa-star" aria-hidden="true"></i>
+                          <i class="fa fa-star" aria-hidden="true"></i>
+                          <i class="fa fa-star" aria-hidden="true"></i>
+                          <i class="fa fa-star" aria-hidden="true"></i>
+                          <a href="#" class="btn btn-success">achetés<i class="fa fa-shopping-cart" aria-hidden="true"></i></a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <div class="cards-wrapper">
+                    <div class="card d-none d-md-block" style="width: 15rem;">
+                      <img src="images/pink watch.jpg" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title text-success h6">montre</h5>
+                        <p class="card-text text-success h6">$370 <br><i class="fa fa-star" aria-hidden="true"></i>
+                          <i class="fa fa-star" aria-hidden="true"></i>
+                          <i class="fa fa-star" aria-hidden="true"></i>
+                          <i class="fa fa-star" aria-hidden="true"></i>
+                          <i class="fa fa-star" aria-hidden="true"></i>
+                          <a href="#" class="btn btn-success">achetés<i class="fa fa-shopping-cart" aria-hidden="true"></i></a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          
+            <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <div class="cards-wrapper">
+                    <div class="card d-none d-md-block" style="width: 15rem;">
+                      <div class="image-wrapper">
+                         <img src="images/Image-28.jpg" class="card-img-top" alt="...">
+                      </div>
+                      <div class="card-body">
+                        <h5 class="card-title text-success">montre</h5>
+                        <p class="card-text text-success h6">$520 <br><i class="fa fa-star" aria-hidden="true"></i>
+                          <i class="fa fa-star" aria-hidden="true"></i>
+                          <i class="fa fa-star" aria-hidden="true"></i>
+                          <i class="fa fa-star" aria-hidden="true"></i>
+                          <i class="fa fa-star" aria-hidden="true"></i>
+                          <a href="#" class="btn btn-success">achetés<i class="fa fa-shopping-cart" aria-hidden="true"></i></a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <div class="cards-wrapper">
+                    <div class="card d-none d-md-block" style="width: 15rem;">
+                      <div class="imge-wrapper">
+                         <img src="images/Image-24.jpg" class="card-img-top" alt="...">
+                      </div>
+                      <div class="card-body">
+                        <h5 class="card-title text-success">Montre</h5>
+                        <p class="card-text text-success h6">$320 <br><i class="fa fa-star" aria-hidden="true"></i>
+                          <i class="fa fa-star" aria-hidden="true"></i>
+                          <i class="fa fa-star" aria-hidden="true"></i>
+                          <i class="fa fa-star" aria-hidden="true"></i>
+                          <i class="fa fa-star" aria-hidden="true"></i>
+                          <a href="#" class="btn btn-success">achetés<i class="fa fa-shopping-cart" aria-hidden="true"></i></a>
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <div class="cards-wrapper">
+                    <div class="card d-none d-md-block" style="width: 15rem;">
+                      <div class="image-wrapper">
+                      <img src="images/Image-19.jpg" class="card-img-top" alt="...">
+                      </div>
+                      <div class="card-body">
+                        <h5 class="card-title text-success">montre</h5>
+                         <p class="card-text text-success h6">$320 <br><i class="fa fa-star" aria-hidden="true"></i>
+                          <i class="fa fa-star" aria-hidden="true"></i>
+                          <i class="fa fa-star" aria-hidden="true"></i>
+                          <i class="fa fa-star" aria-hidden="true"></i>
+                          <i class="fa fa-star" aria-hidden="true"></i>
+                          <a href="#" class="btn btn-success">achetés<i class="fa fa-shopping-cart" aria-hidden="true"></i></a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <h1 class="display-5 text-center text-success titremain">Les Produits Casques et Bluetooth</h1>
+        <div class="row contenu">
+          <div class="col-lg-4 col-md-12 col-sm-12  d-flex colmain">
+            <div id="carouselExampleSlidesOnly" class="carousel slide caroussel" data-bs-ride="carousel">
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <div class="cards-wrapper">
+                    <div class="card " style="width: 15rem;">
+                      <div class="image-wrapper">
+                        <img src="images/product 2.jpg" class="card-img-top" alt="...">
+                      </div>
+                      <div class="card-body">
+                        <h5 class="card-title text-success">Bluetooth </h5>
+                        <p class="card-text text-success  h6">$400 <br>
+                          <i class="fa fa-star" aria-hidden="true"></i>
+                          <i class="fa fa-star" aria-hidden="true"></i>
+                          <i class="fa fa-star" aria-hidden="true"></i>
+                          <i class="fa fa-star" aria-hidden="true"></i>
+                          <i class="fa fa-star" aria-hidden="true"></i>
+                          <a href="#" class="btn btn-success">achetés<i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                          </a>
+                        </p>
+                        
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <div class="cards-wrapper">
+                    <div class="card d-none d-md-block" style="width: 15rem;">
+                      <div class="image-wrapper">
+                        <img src="images/product 6.jpg" class="card-img-top" alt="...">
+                      </div>
+                      <div class="card-body">
+                        <h5 class="card-title h6 text-success">casque</h5>
+                        <p class="card-text text-success h6">$750 <br>
+                          <i class="fa fa-star" aria-hidden="true"></i>
+                          <i class="fa fa-star" aria-hidden="true"></i>
+                          <i class="fa fa-star" aria-hidden="true"></i>
+                          <i class="fa fa-star" aria-hidden="true"></i>
+                          <i class="fa fa-star" aria-hidden="true"></i>
+                          <a href="#" class="btn btn-success">achetés<i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                          </a>
+                        </p>
+                        
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel-item ">
+                  <div class="cards-wrapper">
+                    <div class="card d-none d-md-block" style="width: 15rem;">
+                      <div class="image-wrapper">
+                       <img src="images/product 10.jpg" class="card-img-top" alt="...">
+                      </div>
+                      <div class="card-body">
+                        <h5 class="card-title text-success">montre</h5>
+                        <p class="card-text text-success h6">$420 <br><i class="fa fa-star" aria-hidden="true"></i>
+                          <i class="fa fa-star" aria-hidden="true"></i>
+                          <i class="fa fa-star" aria-hidden="true"></i>
+                          <i class="fa fa-star" aria-hidden="true"></i>
+                          <i class="fa fa-star" aria-hidden="true"></i>
+                          <a href="#" class="btn btn-success">achetés<i class="fa fa-shopping-cart" aria-hidden="true"></i></a>
+                        </p>
+                        
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          
+            <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <div class="cards-wrapper">
+                    <div class="card d-none d-md-block" style="width: 15rem;">
+                      <div class="image-wrapper">
+                       <img src="images/product 2.jpg" class="card-img-top" alt="...">
+                      </div>
+                      <div class="card-body">
+                        <h5 class="card-title text-success h6">bluetooth</h5>
+                        <p class="card-text text-success h6">$320 <br><i class="fa fa-star" aria-hidden="true"></i>
+                          <i class="fa fa-star" aria-hidden="true"></i>
+                          <i class="fa fa-star" aria-hidden="true"></i>
+                          <i class="fa fa-star" aria-hidden="true"></i>
+                          <i class="fa fa-star" aria-hidden="true"></i>
+                          <a href="#" class="btn btn-success">achetés<i class="fa fa-shopping-cart" aria-hidden="true"></i></a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <div class="cards-wrapper">
+                    <div class="card d-none d-md-block" style="width: 15rem;">
+                      <div class="image wrapper">
+                        <img src="images/Alexxa.jpg" class="card-img-top" alt="...">
+                      </div>
+                      <div class="card-body">
+                        <h5 class="card-title text-success h6">bluetooth</h5>
+                        <p class="card-text text-success h6">$950 <br><i class="fa fa-star" aria-hidden="true"></i>
+                          <i class="fa fa-star" aria-hidden="true"></i>
+                          <i class="fa fa-star" aria-hidden="true"></i>
+                          <i class="fa fa-star" aria-hidden="true"></i>
+                          <i class="fa fa-star" aria-hidden="true"></i>
+                          <a href="#" class="btn btn-success">achetés<i class="fa fa-shopping-cart" aria-hidden="true"></i></a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <div class="cards-wrapper">
+                    <div class="card d-none d-md-block" style="width: 15rem;">
+                      <img src="images/Image-25.jpg" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title text-success h6">casque</h5>
+                        <p class="card-text text-success h6">$370 <br><i class="fa fa-star" aria-hidden="true"></i>
+                          <i class="fa fa-star" aria-hidden="true"></i>
+                          <i class="fa fa-star" aria-hidden="true"></i>
+                          <i class="fa fa-star" aria-hidden="true"></i>
+                          <i class="fa fa-star" aria-hidden="true"></i>
+                          <a href="#" class="btn btn-success">achetés<i class="fa fa-shopping-cart" aria-hidden="true"></i></a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          
+            <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <div class="cards-wrapper">
+                    <div class="card d-none d-md-block" style="width: 15rem;">
+                      <div class="image-wrapper">
+                         <img src="images/product 6.jpg" class="card-img-top" alt="...">
+                      </div>
+                      <div class="card-body">
+                        <h5 class="card-title text-success">casque</h5>
+                        <p class="card-text text-success h6">$520 <br><i class="fa fa-star" aria-hidden="true"></i>
+                          <i class="fa fa-star" aria-hidden="true"></i>
+                          <i class="fa fa-star" aria-hidden="true"></i>
+                          <i class="fa fa-star" aria-hidden="true"></i>
+                          <i class="fa fa-star" aria-hidden="true"></i>
+                          <a href="#" class="btn btn-success">achetés<i class="fa fa-shopping-cart" aria-hidden="true"></i></a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <div class="cards-wrapper">
+                    <div class="card d-none d-md-block" style="width: 15rem;">
+                      <div class="imge-wrapper">
+                         <img src="images/Image-11.jpg" class="card-img-top" alt="...">
+                      </div>
+                      <div class="card-body">
+                        <h5 class="card-title text-success">casque</h5>
+                        <p class="card-text text-success h6">$320 <br><i class="fa fa-star" aria-hidden="true"></i>
+                          <i class="fa fa-star" aria-hidden="true"></i>
+                          <i class="fa fa-star" aria-hidden="true"></i>
+                          <i class="fa fa-star" aria-hidden="true"></i>
+                          <i class="fa fa-star" aria-hidden="true"></i>
+                          <a href="#" class="btn btn-success">achetés<i class="fa fa-shopping-cart" aria-hidden="true"></i></a>
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <div class="cards-wrapper">
+                    <div class="card d-none d-md-block" style="width: 15rem;">
+                      <div class="image-wrapper">
+                      <img src="images/Image-1.jpg" class="card-img-top" alt="...">
+                      </div>
+                      <div class="card-body">
+                        <h5 class="card-title text-success">casque</h5>
+                         <p class="card-text text-success h6">$320 <br><i class="fa fa-star" aria-hidden="true"></i>
+                          <i class="fa fa-star" aria-hidden="true"></i>
+                          <i class="fa fa-star" aria-hidden="true"></i>
+                          <i class="fa fa-star" aria-hidden="true"></i>
+                          <i class="fa fa-star" aria-hidden="true"></i>
+                          <a href="#" class="btn btn-success">achetés<i class="fa fa-shopping-cart" aria-hidden="true"></i></a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div><!----fin-->
+    </section>
+    <section class="section-footer ">
+      <div class="container-fluid bg-success">
+      <div class="row ml-5">
+        <div class="col-lg-4 col-md-4 col-sm-12 ">
+        <p class="titrefooter1 text-light">e-commerce</p>
+        <p class="paragrephefooter1 h5 text-light">est un plateform de vente en ligne qui <br> permet de satisfaire vos besoins </p>
+        </div>
+        <div class="col-lg-6 col-md-6 col-sm-12 mt-5">
+          <p class="h4 text-light">Nos Contacts :</p>
+          <p class="h5 text-light">Tel:780125721 </p>
+          <p class="h5 text-light">Email:ngagneniang13@gmail.com</p>
+          <p><i class="fa fa-facebook fa-2x text-light" aria-hidden="true"></i>
+            <i class="fa fa-twitter fa-2x text-light" aria-hidden="true"></i>
+            <i class="fa fa-instagram fa-2x text-light" aria-hidden="true"></i>
+            <i class="fa fa-linkedin fa-2x text-light" aria-hidden="true"></i></p>
+        </div>
+      </div>
+      <p class="text-center h5 text-light">Copyright @ 2022</p>
+    </div>
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+  </body>
+</html>
